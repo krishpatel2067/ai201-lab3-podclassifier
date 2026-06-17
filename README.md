@@ -21,20 +21,10 @@ cp .env.example .env
 python app.py
 ```
 
-## Lab milestones
-
-| Milestone | Task | File |
-|---|---|---|
-| 1 | Label 20 training episodes | `data/my_labels.json` |
-| 2 | Implement the few-shot classifier | `classifier.py` |
-| 3 | Implement evaluation metrics | `evaluate.py` |
-
-See the lab instructions for full details.
-
-## Project structure
+## Project Structure
 
 ```
-ai201-lab3-podclassifier-starter/
+root/
 ├── app.py              # Gradio UI
 ├── classifier.py       # Few-shot classification logic
 ├── evaluate.py         # Evaluation metrics
@@ -42,12 +32,12 @@ ai201-lab3-podclassifier-starter/
 ├── requirements.txt
 ├── .env.example
 ├── data/
-│   ├── train_episodes.json   # 20 episodes to label (Milestone 1)
+│   ├── train_episodes.json   # 20 labeled episodes
 │   ├── test_episodes.json    # 20 pre-labeled episodes (held-out test set)
-│   ├── my_labels.json        # Your labels — edit this in Milestone 1
+│   ├── my_labels.json        # Labeled episodes matching `train_episodes.json`
 │   └── taxonomy.md           # Label definitions and edge cases
 └── specs/
     ├── system-design.md      # Architecture overview
-    ├── classifier-spec.md    # Spec for Milestone 2 (fill in before coding)
-    └── evaluation-spec.md    # Spec for Milestone 3 (fill in before coding)
+    ├── classifier-spec.md    # Spec for classifier.py
+    └── evaluation-spec.md    # Spec for evaluate.py
 ```
