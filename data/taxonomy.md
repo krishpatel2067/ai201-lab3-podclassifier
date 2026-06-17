@@ -7,6 +7,7 @@ Use these four labels when annotating `train_episodes.json`. Each label captures
 ## Labels
 
 ### `interview`
+
 A host speaks with one or more guests. The episode is structured around questions and responses. The guest has expertise, experience, or a story that the host is drawing out.
 
 **Key signal:** There is a clear host-guest dynamic. The host is asking; the guest is answering.
@@ -16,6 +17,7 @@ A host speaks with one or more guests. The episode is structured around question
 ---
 
 ### `solo`
+
 One host speaks alone, without guests. Could be a personal essay, opinion piece, tutorial, weekly reflection, or instructional walkthrough.
 
 **Key signal:** One voice, no guest. The host is sharing their own thoughts, analysis, or experience.
@@ -25,6 +27,7 @@ One host speaks alone, without guests. Could be a personal essay, opinion piece,
 ---
 
 ### `panel`
+
 Three or more speakers discuss a topic together without a clear host-guest dynamic. All participants contribute as rough equals; no one is being interviewed.
 
 **Key signal:** Multiple voices, roughly equal standing. Nobody is the clear subject of the conversation.
@@ -34,6 +37,7 @@ Three or more speakers discuss a topic together without a clear host-guest dynam
 ---
 
 ### `narrative`
+
 A story is told over the course of the episode, usually with reporting, production, or multiple sources woven together. The episode has a story arc — characters, events, and a thread that pulls through.
 
 **Key signal:** Structured as a story, not a conversation. Often uses audio clips, interview excerpts assembled for narrative effect, or documentary-style production.
@@ -54,9 +58,9 @@ Some descriptions genuinely fit more than one label. That's intentional — it m
 
 **Narrative built from interviews:** If the episode is structured as a story (with a narrative arc) but uses interview excerpts as raw material, label it `narrative`. The assembly is what matters, not the source material.
 
-**First-person personal story:** This is the trickiest boundary. A solo host can tell a deeply personal story in past tense with a clear arc — and it's still `solo`, not `narrative`. The difference is the *source*. Ask: is the host the only source, speaking from memory and reflection? That's `solo`. Or does the episode draw on external material — documents, archives, other people's interviews, recordings — to reconstruct events? That's `narrative`. A host saying "here's what that year was like for me" is solo. A host saying "I built this episode from letters my grandmother left behind and interviews with my aunts" is narrative, because the story is assembled from sources beyond the host's own voice.
+**First-person personal story:** This is the trickiest boundary. A solo host can tell a deeply personal story in past tense with a clear arc — and it's still `solo`, not `narrative`. The difference is the _source_. Ask: is the host the only source, speaking from memory and reflection? That's `solo`. Or does the episode draw on external material — documents, archives, other people's interviews, recordings — to reconstruct events? That's `narrative`. A host saying "here's what that year was like for me" is solo. A host saying "I built this episode from letters my grandmother left behind and interviews with my aunts" is narrative, because the story is assembled from sources beyond the host's own voice.
 
-**When you're genuinely unsure:** Pick the label that fits the *structure* you'd expect if you were listening, not the label that fits the description's marketing language. Description writers are trying to make the episode sound interesting — they're not trying to be structurally accurate.
+**When you're genuinely unsure:** Pick the label that fits the _structure_ you'd expect if you were listening, not the label that fits the description's marketing language. Description writers are trying to make the episode sound interesting — they're not trying to be structurally accurate.
 
 ---
 
