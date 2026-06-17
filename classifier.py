@@ -117,8 +117,6 @@ def classify_episode(description: str, labeled_examples: list[dict]) -> dict:
         if not lines:
             return {"label": "unknown", "reasoning": "LLM returned an empty response."}
 
-        print(response)
-
         # Extract the label and reasoning using the specified format
         match = re.match(r"^Label:\s*([a-zA-Z]+)$", lines[0], flags=re.I)
         raw_label = match.group(1).lower() if match else ""

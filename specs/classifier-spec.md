@@ -30,7 +30,7 @@ all labeled training examples, and the new episode description to classify.
 
 ---
 
-### Spec fields — fill these in before writing code
+### Spec Fields
 
 **Task instruction (what should the LLM know about the task?):**
 
